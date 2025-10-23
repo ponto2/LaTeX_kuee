@@ -46,7 +46,7 @@
             "ja-no-successive-word": true,
             "ja-no-weak-phrase": true,
             "max-kanji-continuous-len": {
-                "max": 8
+                "max": 12
             },
             "max-ten": {
                 "touten": "，",
