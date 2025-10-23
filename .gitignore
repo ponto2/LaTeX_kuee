@@ -27,6 +27,7 @@
 *.fls
 *.bcf
 *.xml
+*.fff
 
 # Ignore node_modules
 node_modules/
