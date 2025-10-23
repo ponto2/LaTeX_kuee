@@ -16,29 +16,16 @@
 \begin{document}
 \maketitle			% 表題を出力
 \begin{eabstract}		% 英文要旨を出力
-English abstract goes here.
+
 \end{eabstract}
 \tableofcontents		% 目次を出力
 
 
-\chapter{使い方}
-基本的な使い方は通常のLaTeXと同様．
-図表はfiguresフォルダに入れる．
-BibTeXを使用する場合は，main.bibに参考文献を記述する．
-図表を挿入すると，図\ref{fig:dummy}のように，ページの最後にまとめて出力される．
+\chapter{序論}
+\cite{GuideBook}
 
-\begin{figure}
-    \centering
-    \includegraphics[width=0.5\linewidth]{dummy.pdf}
-    \caption{ダミー図}
-    \label{fig:dummy}
-\end{figure}
+\chapter{}
 
-そのほかの細かい使い方は，sample.pdfを参照のこと．
-
-\chapter{GitHubとの連携}
-作業ブランチからmasterブランチにPull Requestを出すと，GitActionsが自動的に動作してtextlintが走る，らしい．
-ここら辺の仕組みはあまりよくわかっていない．
 
 %======================================================================
 %		謝辞
@@ -61,8 +48,6 @@ BibTeXを使用する場合は，main.bibに参考文献を記述する．
 %		付録
 %======================================================================
 \appendix
-\chapter{}
-
 \chapter{}
 
 

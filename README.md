@@ -1,3 +1,3 @@
-# README for your project 
+メモ
+引用を1回もしていないtexファイルをコンパイルしようとするとエラーを吐く．
 
-This is a blank README file. You can add your project description here.
