@@ -1,3 +1,3 @@
-メモ
-引用を1回もしていないtexファイルをコンパイルしようとするとエラーを吐く．
+sample.pdf,sample.tex,sample.bibを参考にしてmain.tex,main.bibを編集してください．
+
 
