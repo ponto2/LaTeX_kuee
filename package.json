@@ -1,9 +1,9 @@
 {
     "name": "thesis-template-master",
     "scripts": {
-        "lint": "textlint */*.tex",
-        "fix": "textlint --fix */*.tex",
-        "lint-style": "textlint -f checkstyle */*.tex"
+        "lint": "textlint **/*.tex",
+        "fix": "textlint --fix **/*.tex",
+        "lint-style": "textlint -f checkstyle **/*.tex"
     },
     "dependencies": {
         "textlint": "^15.2.2",
@@ -35,3 +35,4 @@
         "textlint-rule-sentence-length": "^5.2.0"
     }
 }
+
