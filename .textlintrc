@@ -64,7 +64,7 @@
                 "preferInList": "である",
                 "strict": true
             },
-            "no-exclamation-question-mark": true,
+            "no-exclamation-question-mark": false,
             "no-hankaku-kana": true,
             "no-zero-width-spaces": true,
             "preset-jtf-style": true
@@ -75,4 +75,5 @@
             ]
         }
     }
+
 }
