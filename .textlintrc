@@ -67,7 +67,11 @@
             "no-exclamation-question-mark": false,
             "no-hankaku-kana": true,
             "no-zero-width-spaces": true,
-            "preset-jtf-style": true
+        },
+        "preset-jtf-style": {
+            "1.2.2.ピリオド(.)とカンマ(,)": false,
+            "1.1.3.箇条書き": false,
+            "2.2.1.ひらがなと漢字の使い分け": true
         },
         "prh": {
             "rulePaths": [
@@ -77,3 +81,4 @@
     }
 
 }
+
