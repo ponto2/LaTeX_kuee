@@ -41,7 +41,13 @@
             "no-dropping-the-ra": true,
             "no-double-negative-ja": true,
             "ja-unnatural-alphabet": true,
-            "ja-no-redundant-expression": true,
+            "ja-no-redundant-expression":{
+                "dictOptions": {
+                    "dict5": {
+                        "disabled": true
+                    }
+                }
+            },
             "ja-no-abusage": true,
             "ja-no-successive-word": true,
             "ja-no-weak-phrase": true,
@@ -66,7 +72,7 @@
             },
             "no-exclamation-question-mark": false,
             "no-hankaku-kana": true,
-            "no-zero-width-spaces": true,
+            "no-zero-width-spaces": true
         },
         "preset-jtf-style": {
             "1.2.2.ピリオド(.)とカンマ(,)": false,
@@ -81,4 +87,5 @@
     }
 
 }
+
 
